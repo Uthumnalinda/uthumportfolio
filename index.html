@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+ </head>
+    <body>
+        <div class="navbar">
+            <a href="#home" class="logo"></a>
+            <ul>
+                 <li class="active"><a href="#home">Home</a></li>
+                 <li><a href="#AboutMe">About Me</a></li>
+                 <li><a href="#Projects">Projects</a></li>
+                 <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </div>
+        <section class="home" id="home">
+            <div class="homeinfo">
+                
+                <div id="AboutMe">
+                    <h1>Uthum Nalinda</h1>
+                    <h2>I'm Frontend Developer</h2>
+                    <p>Hello! My name is Uthum Nalinda. I am an aspiring web developer passionate about building user-friendly and efficient web applications. I enjoy solving problems and learning new technologies.</p>
+                </div>
+                <div class="btn-sci">
+                    <a href="UTHUM CV.pdf" class="btn">Download CV</a>
+                    <div class="sci">
+                        <a href="https://github.com/uthum123" target="_blank"><i class='bx bxl-github'></i></a>
+                        <a href="https://linkedin.com/in/uthum-nalinda-1b75871bb"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="homeimg">
+                <div class="imgbox">
+                    <div class="imgitem">
+                       <img src="propic.png" alt="propic">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Projects">
+            <h2>My Projects</h2>
+            <div class="projectsall">
+            <div class="projects">
+                <h3>Project 1</h3>
+                <img src="portfolio.jpeg" height="500" width="357">
+                <p>This is my first mini project making portfolio website.</p>
+            </div>
+            <div class="projects">
+                <h3>Project 2</h3>
+                <img src="ecommerce.jpeg" height="500" width="357">
+                <p>This is my second project making e-commerce website as a group project.</p>
+            </div>
+            <div class="projects">
+                <h3>Project 3</h3>
+                <img src="blog.jpeg" height="500" width="357">
+                <p>This is my third project making blog site when I bored.</p>
+            </div>
+        </div>
+        </section>
+        <section id="contacts">
+            <div class="contactme">
+                <h2><b>Contact Me</b></h2>
+                <form action="1.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+        
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>        
+    </body>
+</html>
